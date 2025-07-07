@@ -1,0 +1,50 @@
+# Core Python Libraries
+fastapi==0.110.0
+uvicorn==0.29.0
+
+# LangChain for agent orchestration
+langchain==0.1.13
+langchain-core==0.1.31
+langchain-community==0.0.26
+
+# Vector Database (Pinecone)
+pinecone
+
+# Embedding & LLMs
+sentence-transformers==2.6.1
+transformers==4.40.1
+accelerate==0.30.1
+bitsandbytes==0.43.1
+peft==0.10.0
+datasets==2.19.0
+scipy==1.13.1
+
+# OCR, Audio, and Multimodal processing
+imagebind==0.1.1
+pytesseract==0.3.10
+opencv-python==4.9.0.80
+librosa==0.10.1
+pydub==0.25.1
+SpeechRecognition==3.10.1
+
+# Data Parsing & Utilities
+python-docx==1.1.0
+pdfminer.six==20231228
+PyMuPDF==1.23.18
+beautifulsoup4==4.12.3
+pandas==2.2.2
+numpy==1.26.4
+
+# RAG and Semantic Search Utilities
+faiss-cpu==1.8.0
+tqdm==4.66.4
+
+# Optional but recommended for file uploads
+python-multipart==0.0.9
+
+# For environment management and config
+python-dotenv==1.0.1
+
+# Web CORS (FastAPI extension)
+aiofiles==23.2.1
+jinja2==3.1.3
